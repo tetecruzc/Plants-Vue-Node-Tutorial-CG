@@ -1,0 +1,24 @@
+.pagination{
+    .page-item{
+        margin: 0 !important;
+        button{
+          color: $color-primary;
+          &:focus{
+            outline:none !important;
+            outline-width: 0 !important;
+            box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+          }
+        }
+        &.active {
+          .page-link {
+            background-color: $color-primary !important;
+            border-color: $color-primary !important;
+          }
+        }
+        &.disable span{
+          color: $color-primary;
+        }
+    }
+}

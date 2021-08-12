@@ -1,0 +1,42 @@
+input.form-control:focus{
+    box-shadow: none !important;
+    height: 38px;
+}
+.form-group--invalid{
+    color: $color-red-dark;
+}
+
+.dropdown {
+    & > .btn, & > .btn:hover,& > .btn:focus,& > .btn:active{
+        height: 38px;
+        font-size: 12px;
+        color: $color-gray !important;
+        border-color: $color-input !important;
+        background-color: transparent !important ;
+        width: 100%;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &::after{
+            margin-left: auto !important;
+        }
+    }
+    ul{
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+
+.input-group{
+    .input-group-append{
+        background: $color-primary;
+        border-radius: 0 4px 4px 0;
+        .btn{
+        background: $color-primary;
+        border-color: $color-primary;
+        border-radius: 0 4px 4px 0;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.badges{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.badge--true{
+    background-color: $color-green-light;
+    color: $color-green-dark;
+}
+
+.badge--false{
+    background-color: $color-red-light;
+    color: $color-red-dark;
+}
+

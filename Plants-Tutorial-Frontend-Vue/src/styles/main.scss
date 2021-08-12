@@ -1,0 +1,20 @@
+
+
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './base/base';
+@import './base/utilities';
+@import './base/typography';
+
+@import './components/utils/buttons';
+@import './components/utils/inputFile';
+@import './components/utils/toasts';
+@import './components/utils/form';
+@import './components/layout/header';
+
+@import './components/table/badge';
+@import './components/table/pagination';
+
+
+

@@ -1,0 +1,17 @@
+.navbar-nav{
+    a{
+      color: #333;
+      text-decoration: none;
+    }
+  }
+  .navbar{
+      height: 76px !important;
+      background-color:  #fff !important;
+      box-shadow: $light-shadow;
+      &__logo{
+          height: 60px !important;
+      }
+      .navbar-nav > *{
+          margin: 0 10px !important;
+      }
+  }
